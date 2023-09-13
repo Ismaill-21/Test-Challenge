@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 15px;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+div.background {
+  width: 320px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 75px auto;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  position: relative;
+}
+
+img.QR {
+  position: absolute;
+  top: 2%;
+  left: 4%;
+  width: 296px;
+  height: 296px;
+  border-radius: 15px;
+}
+
+.shadow {
+  box-shadow: 0px 10px 20px 0px hsl(220, 15%, 55%);
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  position: absolute;
+  text-align: center;
+}
+
+.top {
+  top: 64%;
+  left: 16%;
+}
+.buttom {
+  top: 70%;
+  left: 9%;
+}
+
+pre {
+  font-family: "Outfit", sans-serif;
+  position: absolute;
+  top: 80%;
+  left: 2%;
+  text-align: center;
+  line-height: 20px;
+  color: #9a9a9a;
+}
+
+/* Desktop-design */
+
+@media (min-width: 376px) {
+  div.background {
+    width: 270px;
+    height: 440px;
+    margin: 150px auto;
+    border-radius: 20px;
+  }
+
+  img.QR {
+    top: 2%;
+    left: 4%;
+    width: 248px;
+    height: 248px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .top {
+    top: 62%;
+    left: 13%;
+  }
+  .buttom {
+    top: 68%;
+    left: 11%;
+  }
+
+  pre {
+    font-size: 13px;
+    top: 77%;
+    left: 4%;
+    line-height: 18px;
+  }
+}
